@@ -1,0 +1,5 @@
+require 'agi/agi'
+require 'agi/asterisk_variable'
+require 'agi/command'
+require 'agi/error'
+require 'agi/return_status'

@@ -1,0 +1,15 @@
+.idea/
+.bundle/
+*.gem
+*.rbc
+.bundle
+.config
+.yardoc
+Gemfile.lock
+InstalledFiles
+_yardoc
+coverage
+pkg
+test/tmp
+test/version_tmp
+tmp

@@ -11,11 +11,11 @@ Gem::Specification.new do |s|
   s.email = %q{alx@anadyr.org}
   s.extra_rdoc_files = [
      "LICENSE",
-     "README"
+     "README.md"
   ]
   s.files = [
      "LICENSE",
-     "README",
+     "README.md",
      "Rakefile",
      "VERSION",
      "examples/call_log.rb",

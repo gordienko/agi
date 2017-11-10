@@ -11,7 +11,7 @@ http://agi.rubyforge.org           (agi homepage)
 
 Install from githib:
 
-    git clone git@github.com:gordienko/agi.git
+    git clone https://github.com/gordienko/agi.git
     cd agi
     gem build agi.gemspec
     gem install agi-<version>.gem

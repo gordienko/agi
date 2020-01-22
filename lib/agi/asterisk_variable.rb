@@ -206,7 +206,7 @@ class AsteriskVariable < AGI
 			@calleridname	= ""
 			@calleridnumber	= ""
 		elsif Regexp.new(/^\d+\d$/).match(@callerid)
-			@calleridname	= ""
+			@calleridname	= read_env('agi_calleridname')
 			@calleridnumber	= @callerid
 		else
 			@calleridname	= read_env('agi_calleridname')
